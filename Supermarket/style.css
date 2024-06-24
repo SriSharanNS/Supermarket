@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400..800&family=Merriweather:wght@300&family=Playfair+Display:ital@0;1&display=swap');
+
+
+h1{
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.top{
+    background-image: url("./Images/cart.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    min-height: 700px;
+
+}
+
+.top h6{
+    color: white;
+    font-size: 60px;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+
+}
+
+.top{
+    
+    display: flex;
+    align-items: center;
+}
+
+.about p{
+    font-size: 18px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.centers{
+    background-image: url("./Images/MixCollage-2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.centers ul{
+    font-size: 18px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.awards ol{
+    font-size: 18px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gallery{
+    background-color: black;
+    color: white;
+}
+
+.gallery img:hover{
+    cursor: pointer;
+}
+
+
+
+.staff .card-p{
+    position: relative;
+    width: 22rem;
+}
+
+
+.staff .card-p .desp{
+    position: absolute;
+    overflow: hidden;
+    padding-left: 100px;
+    margin-top: -90px;
+    color:white;
+    opacity:0;
+  }
+  
+.staff .card-p img:hover{
+  
+      filter: brightness(30%);
+      cursor: pointer;
+    
+    + .desp{  
+        opacity: 1;
+        cursor: pointer;
+        transition: transform 300ms;
+        display:block;
+        color: white;
+        transform: translate(0, -10px);
+        transition: 0.6s;
+    }
+  }
+
+
+
+.reviews img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+.reviews p{
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 10px;
+    padding-top: 20px;
+    
+}
+
+
+.contact{
+    background-color: black;
+    color: white;
+}
+
+.contact p{
+    font-size: 18px;
+}
+
+.contact i{
+    font-size: 25px;
+}
+
+.footer p{
+    font-size: 16px;
+}
+
+.att{
+    font-weight: bold;
+}
